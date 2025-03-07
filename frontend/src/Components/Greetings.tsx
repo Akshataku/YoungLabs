@@ -3,8 +3,7 @@ import React, { useState } from "react";
 
 export const Greetings = () => {
   const [name, setName] = useState("");
-  const [greeting, setGreeting] = useState("");
-
+  const [greeting, setGreeting] = useState(""); 
   const handleSubmit = async () => {
     if (!name) return;
     try {

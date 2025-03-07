@@ -3,7 +3,7 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = 8080;
 
 // CORS (optional, update allowed origins for security in production)
 app.use(cors({
